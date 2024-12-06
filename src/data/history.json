@@ -10,7 +10,7 @@
       "Gestion de projet agile avec Trello, suivi des tâches, tests des APIs avec Postman, gestion du code avec Git, et prototypage des interfaces avec Figma pour optimiser l’expérience utilisateur. Utilisation de Visual Studio pour le développement du code.",
       "Résultat : nous avons achevé 95 % du développement de l’application, et la partie restante nécessite une intégration avec le système interne existant de l’entreprise.",
       "Références - Tuteur de stage: SAVARY Christophe < csavary@alteca.fr >"],
-      "imageSrc": "/assets/history/Alteca.jpg",
+      "imageSrc": "/ReactPortfolio/assets/history/Alteca.jpg",
       "keyword": "Application web, Angular, FastAPI – Python, Agile, APIs, Git, Trello, Postman, Visual Studio"
     },
     {
@@ -20,7 +20,7 @@
       "startDate": "05/2023",
       "endDate": "08/2023",
       "experiences": ["Utiliser PowerBI pour analyser des données de ventes et fournir une aide à la décision de l'entreprise." ,"Déterminer les orientations de développements futures à partir de l'analyse des données de vente."],
-      "imageSrc": "/assets/history/andros.png",
+      "imageSrc": "/ReactPortfolio/assets/history/andros.png",
       "keyword": "PowerBI, Analyse de données, Aide à la décision"
     },
     {
@@ -30,7 +30,7 @@
       "startDate": "09/2020",
       "endDate": "11/2020",
       "experiences": ["Analyser les données de recrutement pour aider les unités commerciales à trouver des candidats appropriés."],
-      "imageSrc": "/assets/history/bytedance.png",
+      "imageSrc": "/ReactPortfolio/assets/history/bytedance.png",
       "keyword": "Communication efficace, Gestion du recrutement"
     },
     {
@@ -40,7 +40,7 @@
       "startDate": "06/2020",
       "endDate": "09/2020",
       "experiences": ["Utiliser Excel pour aider l'équipe RH à traiter les données de recrutement et organiser des entretiens."],
-      "imageSrc": "/assets/history/ey.webp",
+      "imageSrc": "/ReactPortfolio/assets/history/ey.webp",
       "keyword": "Excel, Traitement des données de recrutement"
     },
     {
@@ -50,7 +50,7 @@
       "startDate": "02/2020",
       "endDate": "05/2020",
       "experiences": ["Trouver les candidats appropriés en fonction des besoins en personnel de l'équipe V2X (Vehicle-to-everything)."],
-      "imageSrc": "/assets/history/baidu.webp",
+      "imageSrc": "/ReactPortfolio/assets/history/baidu.webp",
       "keyword": "Organisation, Gestion du temps, Attention aux détails"
     }
   ]
