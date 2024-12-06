@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Développement Frontend",
+      "skills": "Angular, React, HTML, CSS, JavaScript, TypeScript, XML, AJAX, JSON, Figma (pour la conception d'UI/UX)"
+    },
+    {
+      "title": "Développement Backend",
+      "skills": "Java, Python, Spring Boot (Java), Hibernate (Java), FastAPI (Python), Flask (Python), APIs REST, Apache Tomcat, Postman"
+    },
+    {
+      "title": "Base de Données",
+      "skills": "SQL, MySQL, Oracle, SQL Server, SQLite, Access, WampServer"
+    },
+    {
+      "title": "Business Intelligence",
+      "skills": "PowerBI, Olap, Talend, DB designer"
+    },
+    {
+      "title": "Gestion de Version",
+      "skills": "Github, GitLab, Git"
+    },
+    {
+      "title": "Maîtrise du développement agile Scrum",
+      "skills": "Scrum Team, Kanban, Trello "
+    }
+  ]
+  
+  

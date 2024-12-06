@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Volontaire - Corps Européen de Solidarité (European Solidarity Corps)",
+    "organisation": "Fondation des Jeunes du Comté de Timiș",
+    "location": "Timișoara, Roumanie",
+    "startDate": "08/2022",
+    "endDate": "1 mois",
+    "experiences": [
+      "Participation à des activités bénévoles en organisant et en promouvant des événements éducatifs, artistiques, culturels et sportifs pour les jeunes de Timișoara.",
+      "Création d'un calendrier d'activités, conception de supports de communication, et gestion de la promotion et de la préparation des événements.",
+      "Engagement dans la gestion des événements, collaboration avec des jeunes de différentes nationalités et cultures, et apprentissage de méthodes de développement communautaire."
+    ],
+    "imageSrc": "/assets/history/ces.png",
+    "keyword": "Bénévolat, Événements, Jeunesse, Communication, Développement communautaire"
+  },
+  {
+    "role": "Vice Présidente - Club des Langues Étrangères",
+    "organisation": "Université de l'Économie et du Commerce de Pékin (CUEB)",
+    "location": "Pékin, Chine",
+    "startDate": "09/2018",
+    "endDate": "07/2019",
+    "experiences": [
+      "Gestion d'un club de plus de 100 membres, organisation d'activités internes et collaboration avec des organisations externes.",
+      "Coordination avec des clubs de langues étrangères dans les universités de Pékin, les centres culturels des ambassades et les écoles de langues locales.",
+      "Partenariats établis avec des institutions telles que New Oriental, l'Académie de Japonais Wuming Tian, l'Ambassade de Russie en Chine et l'Université des Langues Étrangères du Nord de Pékin."
+    ],
+    "imageSrc": "/assets/formations/CUEB.png",
+    "keyword": "Gestion, Clubs, Partenariats, Langues étrangères, Événements"
+  }
+]
+
+  
