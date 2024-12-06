@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <a className={styles.title} href="/">Yifan's Portfolio</a>
+            <a className={styles.title} >Yifan's Portfolio</a>
             <div className={styles.menu} >
                 <img
                 className={styles.menuBtn}
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <li><a href="#formations">Formations</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#projets">Projets</a></li>
+                    {/* <li><a href="#projets">Projets</a></li> */}
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>

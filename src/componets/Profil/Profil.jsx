@@ -13,7 +13,7 @@ export const Profil = () => {
                 <br/><br/>
                 Passionnée par le développement web et constamment à la recherche de nouveaux défis techniques, je suis prête à apporter mes compétences et mon enthousiasme à une équipe dynamique et innovante.
               </div>
-                <a href="YifanCV.pdf" download className={styles.contactBtn}>
+                <a href="YifanCV2024.pdf" download className={styles.contactBtn}>
                   Télécharger mon CV
                 </a>
         </div>
