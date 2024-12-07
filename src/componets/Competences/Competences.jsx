@@ -60,6 +60,9 @@ export const Competences = () => {
           <div className={styles.card}>
             <h3>Adaptabilité</h3>
           </div>
+          <div className={styles.card}>
+          <h3>Communication efficace</h3>
+        </div>
         </div>
       </div>
     </section>

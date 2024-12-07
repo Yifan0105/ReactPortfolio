@@ -1,6 +1,6 @@
 [
     {
-      "role": "Stage en Développeur Fullstack  ",
+      "role": "Développeuse Fullstack   ",
       "organisation": "Alteca  ",
       "location": "Toulouse, France",
       "startDate": "04/2024",
@@ -14,42 +14,46 @@
       "keyword": "Application web, Angular, FastAPI – Python, Agile, APIs, Git, Trello, Postman, Visual Studio"
     },
     {
-      "role": "Stage en Business Intelligence",
+      "role": "Business Intelligence",
       "organisation": "Andros Chine ",
       "location": "Pékin, Chine",
       "startDate": "05/2023",
       "endDate": "08/2023",
-      "experiences": ["Utiliser PowerBI pour analyser des données de ventes et fournir une aide à la décision de l'entreprise." ,"Déterminer les orientations de développements futures à partir de l'analyse des données de vente."],
+      "experiences": ["Analyse des données de vente avec Power BI : Utilisation de Power BI pour réaliser une analyse détaillée et approfondie des données de vente. Conception de tableaux de bord interactifs offrant aux cadres dirigeants une visualisation claire et des insights stratégiques pour une prise de décision éclairée." ,
+      "Veille concurrentielle et étude de marché : Analyse approfondie des tendances du marché et des stratégies des produits similaires proposés par les concurrents. Contribution essentielle à l’élaboration des orientations stratégiques et à la planification de nouveaux produits, renforçant ainsi la compétitivité et l’innovation de l’entreprise."],
       "imageSrc": "/ReactPortfolio/assets/history/andros.png",
       "keyword": "PowerBI, Analyse de données, Aide à la décision"
     },
     {
-      "role": "Stage en HRBP",
+      "role": "Human Resources (HRBP)",
       "organisation": "ByteDance ",
       "location": "Pékin, Chine",
       "startDate": "09/2020",
       "endDate": "11/2020",
-      "experiences": ["Analyser les données de recrutement pour aider les unités commerciales à trouver des candidats appropriés."],
+      "experiences": ["Analyser les données de recrutement pour aider les unités commerciales à trouver des candidats appropriés.",
+      "Gestion efficace du processus de recrutement."],
       "imageSrc": "/ReactPortfolio/assets/history/bytedance.png",
       "keyword": "Communication efficace, Gestion du recrutement"
     },
     {
-      "role": "Stage en Talent Team",
+      "role": "Talent Team",
       "organisation": "Ernst & Young ",
       "location": "Pékin, Chine",
       "startDate": "06/2020",
       "endDate": "09/2020",
-      "experiences": ["Utiliser Excel pour aider l'équipe RH à traiter les données de recrutement et organiser des entretiens."],
+      "experiences": ["Utiliser Excel pour aider l'équipe RH à traiter les données de recrutement et organiser des entretiens.",
+      "Soutien administratif aux équipes RH dans la gestion du recrutement."],
       "imageSrc": "/ReactPortfolio/assets/history/ey.webp",
       "keyword": "Excel, Traitement des données de recrutement"
     },
     {
-      "role": "Stage en HR",
+      "role": "Human Resources ",
       "organisation": "Baidu ",
       "location": "Pékin, Chine",
       "startDate": "02/2020",
       "endDate": "05/2020",
-      "experiences": ["Trouver les candidats appropriés en fonction des besoins en personnel de l'équipe V2X (Vehicle-to-everything)."],
+      "experiences": ["Trouver les candidats appropriés en fonction des besoins en personnel de l'équipe V2X (Vehicle-to-everything).",
+      "Organisation et gestion du temps pour optimiser le processus de recrutement."],
       "imageSrc": "/ReactPortfolio/assets/history/baidu.webp",
       "keyword": "Organisation, Gestion du temps, Attention aux détails"
     }

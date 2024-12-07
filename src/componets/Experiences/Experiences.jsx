@@ -27,7 +27,7 @@ export const Experiences = () => {
                 </div>
               </li>
             );
-          })}
+          })} 
         </ul>
       </div>
     </section>
