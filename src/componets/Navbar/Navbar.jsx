@@ -14,7 +14,7 @@ export const Navbar = () => {
                 <img
                 className={styles.menuBtn}
                 // if menu open true, show close icon
-                src={menuOpen ? "/ReactPortfolio/assets/nav/closeIcon.png" : "/ReactPortfolio/assets/nav/menuIcon.png"}
+                src={menuOpen ? "./assets/nav/closeIcon.png" : "./assets/nav/menuIcon.png"}
                 alt="menu-button"
                 onClick={() => setMenuOpen(!menuOpen)} // when the menu button is clicked, the menu open/close state will be toggled
                 />

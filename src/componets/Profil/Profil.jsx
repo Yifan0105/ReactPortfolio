@@ -15,7 +15,7 @@ export const Profil = () => {
                   Télécharger mon CV
                 </a>
         </div>
-        <img src="/ReactPortfolio/assets/profil/profilImage.jpg" alt="profil" className={styles.profilImg} />
+        <img src="./assets/profil/profilImage.jpg" alt="profil" className={styles.profilImg} />
         <div className={styles.topBlur}  />
         <div className={styles.bottomblur} />
     </section>

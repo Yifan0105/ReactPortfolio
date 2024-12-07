@@ -1,75 +1,75 @@
 [
   {
     "title": "Angular",
-    "imageSrc": "/ReactPortfolio/assets/skills/angular.webp"
+    "imageSrc": "./assets/skills/angular.webp"
   },
   {
     "title": "React",
-    "imageSrc": "/ReactPortfolio/assets/skills/react.png"
+    "imageSrc": "./assets/skills/react.png"
   },
   {
     "title": "HTML",
-    "imageSrc": "/ReactPortfolio/assets/skills/html.png"
+    "imageSrc": "./assets/skills/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "/ReactPortfolio/assets/skills/css.png"
+    "imageSrc": "./assets/skills/css.png"
   },
   {
     "title": "Java",
-    "imageSrc": "/ReactPortfolio/assets/skills/java.png"
+    "imageSrc": "./assets/skills/java.png"
   },
   {
     "title": "Python",
-    "imageSrc": "/ReactPortfolio/assets/skills/python.webp"
+    "imageSrc": "./assets/skills/python.webp"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "/ReactPortfolio/assets/skills/javascript.webp"
+    "imageSrc": "./assets/skills/javascript.webp"
   },
   {
     "title": "TypeScript",
-    "imageSrc": "/ReactPortfolio/assets/skills/typescript.svg"
+    "imageSrc": "./assets/skills/typescript.svg"
   },
   {
     "title": "Spring Boot",
-    "imageSrc": "/ReactPortfolio/assets/skills/springboot.png"
+    "imageSrc": "./assets/skills/springboot.png"
   },
   {
     "title": "FastAPI",
-    "imageSrc": "/ReactPortfolio/assets/skills/fastapi.svg"
+    "imageSrc": "./assets/skills/fastapi.svg"
   },  
   {
     "title": "MySQL",
-    "imageSrc": "/ReactPortfolio/assets/skills/mysql.svg"
+    "imageSrc": "./assets/skills/mysql.svg"
   },
   {
     "title": "Hibernate",
-    "imageSrc": "/ReactPortfolio/assets/skills/hibernate.png"
+    "imageSrc": "./assets/skills/hibernate.png"
   },
   {
     "title": "Oracle",
-    "imageSrc": "/ReactPortfolio/assets/skills/oracle.webp"
+    "imageSrc": "./assets/skills/oracle.webp"
   },
   {
     "title": "Figma",
-    "imageSrc": "/ReactPortfolio/assets/skills/figma.png"
+    "imageSrc": "./assets/skills/figma.png"
   },
   {
     "title": "Postman",
-    "imageSrc": "/ReactPortfolio/assets/skills/postman.webp"
+    "imageSrc": "./assets/skills/postman.webp"
   },
   {
     "title": "PowerBI",
-    "imageSrc": "/ReactPortfolio/assets/skills/powerbi.webp"
+    "imageSrc": "./assets/skills/powerbi.webp"
   },
   {
     "title": "Git",
-    "imageSrc": "/ReactPortfolio/assets/skills/git.png"
+    "imageSrc": "./assets/skills/git.png"
   },
   {
     "title": "VS Code",
-    "imageSrc": "/ReactPortfolio/assets/skills/vs.webp"
+    "imageSrc": "./assets/skills/vs.webp"
   }
 ]
 

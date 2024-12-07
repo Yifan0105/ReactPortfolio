@@ -6,10 +6,10 @@ export const Formations = () => {
     <section id="formations" className={styles.container}>
       <h2 className={styles.title}> Mes Formations  </h2>
       <div className={styles.content}>
-        <img src="/ReactPortfolio/assets/formations/formation.JPG" alt="2024 Graduation" className={styles.formationImage}/>
+        <img src="./assets/formations/formation.JPG" alt="2024 Graduation" className={styles.formationImage}/>
         <ul className={styles.formationItems}>
           <li className={styles.formationItem}>
-            <img src="/ReactPortfolio/assets/formations/UT1.png" alt="UT1 icon" className={styles.formationUniversityImage}/>
+            <img src="./assets/formations/UT1.png" alt="UT1 icon" className={styles.formationUniversityImage}/>
               <div className={styles.formationItemText}>
                 <h3>Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises) </h3>
                 Faculté d'informatique | Université de Toulouse 1 Capitole (UT1) 
@@ -22,7 +22,7 @@ export const Formations = () => {
               </div>
           </li>
           <li className={styles.formationItem}>
-            <img src="/ReactPortfolio/assets/formations/UT1.png" alt="UT1 icon" className={styles.formationUniversityImage} /> 
+            <img src="./assets/formations/UT1.png" alt="UT1 icon" className={styles.formationUniversityImage} /> 
               <div className={styles.formationItemText}>
                 <h3>Année préparatoire chinois pour Master MIAGE</h3>
                  Faculté d'informatique | Université de Toulouse 1 Capitole (UT1) 
@@ -31,7 +31,7 @@ export const Formations = () => {
               </div>
           </li>
           <li className={styles.formationItem}>
-            <img src="/ReactPortfolio/assets/formations/CUEB.png" alt="CUEB icon" className={styles.formationUniversityImage}/>
+            <img src="./assets/formations/CUEB.png" alt="CUEB icon" className={styles.formationUniversityImage}/>
               <div className={styles.formationItemText}>
                 <h3>Licence en Gestion des Ressources Humaines </h3>
                 School of Labor Economics | Capital University of Economics and Business (CUEB)
@@ -40,7 +40,7 @@ export const Formations = () => {
               </div>
           </li>
           <li className={styles.formationItem}>
-            <img src="/ReactPortfolio/assets/formations/DCU.png" alt="DCU icon" className={styles.formationUniversityImage}/>
+            <img src="./assets/formations/DCU.png" alt="DCU icon" className={styles.formationUniversityImage}/>
               <div className={styles.formationItemText}>
                 <h3>Étudiante en échange à Dublin  </h3>
                 Business school | Dublin City University (DCU) 

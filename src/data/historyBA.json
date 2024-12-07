@@ -10,7 +10,7 @@
       "Création d'un calendrier d'activités, conception de supports de communication, et gestion de la promotion et de la préparation des événements.",
       "Engagement dans la gestion des événements, collaboration avec des jeunes de différentes nationalités et cultures, et apprentissage de méthodes de développement communautaire."
     ],
-    "imageSrc": "/ReactPortfolio/assets/history/ces.png",
+    "imageSrc": "./assets/history/ces.png",
     "keyword": "Bénévolat, Événements, Jeunesse, Communication, Développement communautaire"
   },
   {
@@ -24,7 +24,7 @@
       "Coordination avec des clubs de langues étrangères dans les universités de Pékin, les centres culturels des ambassades et les écoles de langues locales.",
       "Partenariats établis avec des institutions telles que New Oriental, l'Académie de Japonais Wuming Tian, l'Ambassade de Russie en Chine et l'Université des Langues Étrangères du Nord de Pékin."
     ],
-    "imageSrc": "/ReactPortfolio/assets/formations/CUEB.png",
+    "imageSrc": "./assets/formations/CUEB.png",
     "keyword": "Gestion, Clubs, Partenariats, Langues étrangères, Événements"
   }
 ]
