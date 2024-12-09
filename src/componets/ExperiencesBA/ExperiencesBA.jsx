@@ -1,27 +1,34 @@
 import React from 'react';
 import styles from './ExperiencesBA.module.css';
-import history from "../../data/historyBA.json";
+import experience from "../../data/experienceBA.json";
+import { translate } from '../../i18n/i18n';
 
-export const ExperiencesBA = () => {
+export const ExperiencesBA = ({ lang }) => {  // 接收 lang 属性来处理多语言
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Mes Expériences Bénévoles et Associatives </h2>
+      <h2 className={styles.title}>
+        {translate(lang, 'experiencesBA.title')}  {/* 使用翻译函数来多语言切换 */}
+      </h2>
       <div className={styles.content}>
-      <ul className={styles.history}>
-          {history.map((historyItem, id) => {
+        <ul className={styles.experience}>
+          {experience.map((experienceItem, id) => {
             return (
-              <li key={id} className={styles.historyItem}>
+              <li key={id} className={styles.experienceItem}>
                 <img
-                  src={historyItem.imageSrc}
-                  alt={`${historyItem.organisation} Logo`}
+                  src={experienceItem.imageSrc}
+                  alt={`${experienceItem.organisation[lang] || experienceItem.organisation.fr} Logo`}  
                 />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role} - ${historyItem.organisation} - ${historyItem.location} `}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`} </p>
-                  <p className={styles.keywordText}> ☆  {historyItem.keyword}</p>
+                <div className={styles.experienceItemDetails}>
+                  <h3>
+                    {`${experienceItem.role[lang] || experienceItem.role.fr} - ${experienceItem.organisation[lang] || experienceItem.organisation.fr} - ${experienceItem.location[lang] || experienceItem.location.fr}`}  {/* 多语言支持 */}
+                  </h3>
+                  <p>{`${experienceItem.startDate[lang] || experienceItem.startDate.fr} - ${experienceItem.endDate[lang] || experienceItem.endDate.fr}`}</p>  
+                  <p className={styles.keywordText}>
+                    ☆ {experienceItem.keyword[lang] || experienceItem.keyword.fr}  
+                  </p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                    {experienceItem.experiences[lang].map((exp, id) => {
+                      return <li key={id}>{exp}</li>;
                     })}
                   </ul>
                 </div>
@@ -31,5 +38,5 @@ export const ExperiencesBA = () => {
         </ul>
       </div>
     </section>
-  )
+  );
 }

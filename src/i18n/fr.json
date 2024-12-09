@@ -42,5 +42,11 @@
       "location": "Dublin, Irlande",
       "dates": "08/2019 - 01/2020"
     }
+  },
+  "experiences": {
+    "title": "Mes Experiences professionnelles"
+  },
+  "experiencesBA": {
+    "title": "Mes Expériences Bénévoles et Associatives"
   }
 }
