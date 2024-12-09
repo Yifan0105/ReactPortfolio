@@ -1,0 +1,16 @@
+{
+    "title": "Yifan's Portfolio",
+    "navbar": {
+      "formations": "Formations",
+      "experiences": "Experiences",
+      "competences": "Skills",
+      "contact": "Contact"
+    },
+    "profil": {
+      "title": "Hello, I am Yifan",
+      "description": "Full-stack developer with hands-on experience in designing and developing web applications within an agile team.\n\nI am currently looking for a professional opportunity as a Developer. I am available immediately, flexible to relocate anywhere in France, and hold a valid residence permit (APS) allowing me to work in France.\n\nI am also open to opportunities across other European Union countries.",
+      "downloadCV": "Download my CV",
+      "altText": "Profile photo"
+    }
+  }
+  

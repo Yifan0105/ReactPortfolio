@@ -1,0 +1,15 @@
+{
+  "title": "Portfolio de Yifan",
+  "navbar": {
+    "formations": "Formations",
+    "experiences": "Expériences",
+    "competences": "Compétences",
+    "contact": "Contact"
+  },
+  "profil": {
+    "title": "Bonjour, je suis Yifan",
+    "description": "Développeuse full stack avec une expérience concrète dans la conception et le développement d’applications web au sein d’une équipe agile.\n\nJe suis actuellement à la recherche d'une opportunité professionnelle en CDI ou CDD en tant que Développeuse. Je suis disponible immédiatement, mobile partout en France, et titulaire d'un titre de séjour valide (APS) me permettant de travailler sur le territoire français.\n\nJe suis également ouverte aux opportunités dans d'autres pays de l'Union européenne.",
+    "downloadCV": "Télécharger mon CV",
+    "altText": "Photo de profil"
+  }
+}

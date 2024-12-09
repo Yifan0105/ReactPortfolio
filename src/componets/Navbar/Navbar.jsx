@@ -1,34 +1,52 @@
-import React ,{useState} from 'react';
+import React, { useState } from 'react';
 import styles from './Navbar.module.css';
+import { translate } from '../../i18n/i18n';  // 导入翻译函数
 
-export const Navbar = () => {
-    // REACT HOOK : State to manage the menu open/close state
+
+
+export const Navbar = ({ lang, setLang }) => {
+    // REACT HOOK: State to manage the menu open/close state
     const [menuOpen, setMenuOpen] = useState(false);
-    // 第一个变量是状态 第二个变量是调整状态的方法 默认情况下为false
-    // 如果setMenuOpen(true)为true
 
     return (
-        <nav className={styles.navbar}>
-            <a className={styles.title} >Yifan's Portfolio</a>
-            <div className={styles.menu} >
-                <img
-                className={styles.menuBtn}
-                // if menu open true, show close icon
-                src={menuOpen ? "./assets/nav/closeIcon.png" : "./assets/nav/menuIcon.png"}
-                alt="menu-button"
-                onClick={() => setMenuOpen(!menuOpen)} // when the menu button is clicked, the menu open/close state will be toggled
-                />
-                <ul
-                className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} // if menuopen is ture , it will use the style of styles.menuOpen, else it will use the style of styles.menu 
-                onClick={() => setMenuOpen(false)}
+        <div>
+            {/* 独立的语言切换功能 */}
+            <div className={styles.languageSwitcher}>
+                <button
+                    className={`${styles.langBtn} ${lang === 'fr' ? styles.active : ''}`}
+                    onClick={() => setLang('fr')}
                 >
-                    <li><a href="#formations">Formations</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#competences">Compétences</a></li>
-                    {/* <li><a href="#projets">Projets</a></li> */}
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                    FR
+                </button>
+                <button
+                    className={`${styles.langBtn} ${lang === 'en' ? styles.active : ''}`}
+                    onClick={() => setLang('en')}
+                >
+                    EN
+                </button>
             </div>
-        </nav>
+
+            <nav className={styles.navbar}>
+                <a className={styles.title}>{translate(lang, 'title')}</a> {/* 动态翻译标题 */}
+                <div className={styles.menu}>
+                    <img
+                        className={styles.menuBtn}
+                        // 如果菜单打开显示关闭图标
+                        src={menuOpen ? "./assets/nav/closeIcon.png" : "./assets/nav/menuIcon.png"}
+                        alt="menu-button"
+                        onClick={() => setMenuOpen(!menuOpen)} // 点击按钮时切换菜单的显示/隐藏状态
+                    />
+                    <ul
+                        className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} // 如果菜单打开，应用 menuOpen 样式
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        <li><a href="#formations">{translate(lang, 'navbar.formations')}</a></li> {/* 动态翻译菜单项 */}
+                        <li><a href="#experiences">{translate(lang, 'navbar.experiences')}</a></li>
+                        <li><a href="#competences">{translate(lang, 'navbar.competences')}</a></li>
+                        <li><a href="#contact">{translate(lang, 'navbar.contact')}</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     );
 };

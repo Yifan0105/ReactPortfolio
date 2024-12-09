@@ -1,24 +1,33 @@
-import React from 'react'
-import styles from './Profil.module.css'
+import React from 'react';
+import styles from './Profil.module.css';
+import { translate } from '../../i18n/i18n';
 
-export const Profil = () => {
+export const Profil = ({ lang }) => {
+  const description = translate(lang, 'profil.description');
+  // 根据语言选择对应的简历文件
+  const cvFile = lang === 'fr' ? 'YifanFrCV2024.pdf' : 'YifanEnCV2024.pdf';
+
   return (
-    <section className={styles.container} >
-        <div className={styles.content} >
-            <h1 className={styles.title} >Bonjour, je suis Yifan</h1>
-              <div className={styles.description}>
-                Développeuse full stack avec une expérience concrète dans la conception et le développement d’applications web au sein d’une équipe agile.
-                <br/><br/>
-                Je suis actuellement à la recherche d'une opportunité professionnelle en CDI ou CDD en tant que Développeuse. Je suis disponible immédiatement, mobile partout en France, et titulaire d'un titre de séjour valide (APS) me permettant de travailler sur le territoire français. 
-              </div>
-                <a href="YifanCV2024.pdf" download className={styles.contactBtn}>
-                  Télécharger mon CV
-                </a>
+    <section className={styles.container}>
+      <div className={styles.content}>
+        <h1 className={styles.title}>{translate(lang, 'profil.title')}</h1>
+        <div className={styles.description}>
+          {description.split('\n').map((line, index) => (
+            <p key={index}>{line}</p>
+          ))}
         </div>
-        <img src="./assets/profil/profilImage.jpg" alt="profil" className={styles.profilImg} />
-        <div className={styles.topBlur}  />
-        <div className={styles.bottomblur} />
+        {/* 根据语言动态设置简历下载链接 */}
+        <a href={cvFile} download className={styles.contactBtn}>
+          {translate(lang, 'profil.downloadCV')}
+        </a>
+      </div>
+      <img
+        src="./assets/profil/profilImage.jpg"
+        alt={translate(lang, 'profil.altText')}
+        className={styles.profilImg}
+      />
+      <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} />
     </section>
-  )
-}
-
+  );
+};
