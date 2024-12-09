@@ -2,69 +2,77 @@ import React from 'react';
 import styles from './Competences.module.css';
 import skills from '../../data/skills.json';
 import techC from '../../data/techC.json';
+import { translate } from '../../i18n/i18n';  
 
-export const Competences = () => {
+export const Competences = ({ lang }) => {
   return (
-    <section id = "competences" className={styles.container}>
-        <h2 className={styles.title}> Mes Compétences </h2>
-        <div className={styles.techSkillscontainer}>
-        <h2 className={styles.titleA}>☆ Tech Skills </h2>
+    <section id="competences" className={styles.container}>
+      <h2 className={styles.title}>
+        {translate(lang, 'competences.title')} 
+      </h2>
+      <div className={styles.techSkillscontainer}>
+        <h2 className={styles.titleA}>
+          ☆ {translate(lang, 'competences.techSkills')}
+        </h2>
         <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={skill.imageSrc} alt={skill.title} />
+          <div className={styles.skills}>
+            {skills.map((skill, id) => {
+              return (
+                <div key={id} className={styles.skill}>
+                  <div className={styles.skillImageContainer}>
+                    <img src={skill.imageSrc} alt={skill.title} />
+                  </div>
+                  <p>{skill.title}</p>  
+                  <p>{skill.skills}</p>  
                 </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+          <ul className={styles.techC}>
+            {techC.map((techCItem, id) => {
+              return (
+                <li key={id} className={styles.techCItem}>
+                  <div className={styles.techCItemDetails}>
+                    <h3>{translate(lang, techCItem.title[lang])}:</h3> 
+                    <p>{translate(lang, techCItem.skills[lang])}</p>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         </div>
-        <ul className={styles.techC}>
-          {techC.map((techCItem, id) => {
-            return (
-              <li key={id} className={styles.techCItem}>
-                <div className={styles.techCItemDetails}>
-                  <h3>{techCItem.title}:</h3>
-                  <p>{techCItem.skills}</p>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
       </div>
       <div className={styles.softSkillsContainer}>
-      <h2 className={styles.titleA}>☆ Soft Skills</h2>
+        <h2 className={styles.titleA}>
+          ☆ {translate(lang, 'competences.softSkills')} 
+        </h2>
         <div className={styles.cardsContainer}>
           <div className={styles.card}>
-            <h3>Capacité d'apprentissage rapide</h3>
+            <h3>{translate(lang, 'competences.learningAbility')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Travail en équipe</h3>
+            <h3>{translate(lang, 'competences.teamwork')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Esprit d'initiative</h3>
+            <h3>{translate(lang, 'competences.initiative')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Sens de l'organisation</h3>
+            <h3>{translate(lang, 'competences.organization')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Résolution de problèmes</h3>
+            <h3>{translate(lang, 'competences.problemSolving')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Capacité à travailler dans un environnement international</h3>
+            <h3>{translate(lang, 'competences.internationalEnvironment')}</h3>
           </div>
           <div className={styles.card}>
-            <h3>Adaptabilité</h3>
+            <h3>{translate(lang, 'competences.adaptability')}</h3>
           </div>
           <div className={styles.card}>
-          <h3>Communication efficace</h3>
-        </div>
+            <h3>{translate(lang, 'competences.communication')}</h3>
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

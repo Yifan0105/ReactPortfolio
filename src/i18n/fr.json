@@ -48,5 +48,22 @@
   },
   "experiencesBA": {
     "title": "Mes Expériences Bénévoles et Associatives"
+  },
+  "competences": {
+    "title": "Mes Compétences",
+    "techSkills": "Compétences Techniques",
+    "softSkills": "Soft Skills",
+    "learningAbility": "Capacité d'apprentissage rapide",
+    "teamwork": "Travail en équipe",
+    "initiative": "Esprit d'initiative",
+    "organization": "Sens de l'organisation",
+    "problemSolving": "Résolution de problèmes",
+    "internationalEnvironment": "Capacité à travailler dans un environnement international",
+    "adaptability": "Adaptabilité",
+    "communication": "Communication efficace"
+  },  
+  "contact": {
+    "title": "Contact",
+    "subtitle": "N’hésitez pas à me contacter !"
   }
 }

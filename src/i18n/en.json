@@ -48,6 +48,23 @@
     },
     "experiencesBA": {
       "title": "My Voluntary and Associative Experiences"
+    },
+    "competences": {
+      "title": "My Skills",
+      "techSkills": "Tech Skills",
+      "softSkills": "Soft Skills",
+      "learningAbility": "Quick Learning Ability",
+      "teamwork": "Teamwork",
+      "initiative": "Initiative",
+      "organization": "Organizational Skills",
+      "problemSolving": "Problem Solving",
+      "internationalEnvironment": "Ability to Work in an International Environment",
+      "adaptability": "Adaptability",
+      "communication": "Effective Communication"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Feel free to contact me!"
     }
   }
   
