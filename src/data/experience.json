@@ -66,5 +66,98 @@
       "fr": "PowerBI, Analyse de données, Aide à la décision",
       "en": "PowerBI, Data analysis, Decision support"
     }
+  },
+  {
+    "role": {
+      "fr": "Human Resources (HRBP)",
+      "en": "Human Resources (HRBP)"
+    },
+    "organisation": {
+      "fr": "ByteDance",
+      "en": "ByteDance"
+    },
+    "location": {
+      "fr": "Pékin, Chine",
+      "en": "Beijing, China"
+    },
+    "startDate": "09/2020",
+    "endDate": "11/2020",
+    "experiences": {
+      "fr": [
+        "Analyser les données de recrutement pour aider les unités commerciales à trouver des candidats appropriés.",
+        "Gestion efficace du processus de recrutement."
+      ],
+      "en": [
+        "Analyzing recruitment data to assist business units in finding suitable candidates.",
+        "Effectively managing the recruitment process."
+      ]
+    },
+    "imageSrc": "./assets/experience/bytedance.png",
+    "keyword": {
+      "fr": "Communication efficace, Gestion du recrutement",
+      "en": "Effective communication, Recruitment management"
+    }
+  },
+  {
+    "role": {
+      "fr": "Talent Team",
+      "en": "Talent Team"
+    },
+    "organisation": {
+      "fr": "Ernst & Young",
+      "en": "Ernst & Young"
+    },
+    "location": {
+      "fr": "Pékin, Chine",
+      "en": "Beijing, China"
+    },
+    "startDate": "06/2020",
+    "endDate": "09/2020",
+    "experiences": {
+      "fr": [
+        "Utiliser Excel pour aider l'équipe RH à traiter les données de recrutement et organiser des entretiens.",
+        "Soutien administratif aux équipes RH dans la gestion du recrutement."
+      ],
+      "en": [
+        "Using Excel to assist the HR team in processing recruitment data and organizing interviews.",
+        "Providing administrative support to HR teams in recruitment management."
+      ]
+    },
+    "imageSrc": "./assets/experience/ey.webp",
+    "keyword": {
+      "fr": "Excel, Traitement des données de recrutement",
+      "en": "Excel, Recruitment data processing"
+    }
+  },
+  {
+    "role": {
+      "fr": "Human Resources",
+      "en": "Human Resources"
+    },
+    "organisation": {
+      "fr": "Baidu",
+      "en": "Baidu"
+    },
+    "location": {
+      "fr": "Pékin, Chine",
+      "en": "Beijing, China"
+    },
+    "startDate": "02/2020",
+    "endDate": "05/2020",
+    "experiences": {
+      "fr": [
+        "Trouver les candidats appropriés en fonction des besoins en personnel de l'équipe V2X (Vehicle-to-everything).",
+        "Organisation et gestion du temps pour optimiser le processus de recrutement."
+      ],
+      "en": [
+        "Finding suitable candidates based on the staffing needs of the V2X (Vehicle-to-everything) team.",
+        "Organizing and managing time to optimize the recruitment process."
+      ]
+    },
+    "imageSrc": "./assets/experience/baidu.webp",
+    "keyword": {
+      "fr": "Organisation, Gestion du temps, Attention aux détails",
+      "en": "Organization, Time management, Attention to detail"
+    }
   }
 ]
